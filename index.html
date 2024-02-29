@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nico eu te amo muito</title>
+    <link rel="stylesheet" href="main.css">
+    <H1>Nico voce é o amor da minha vida todinha</H1>
+</head>
+<body>
+    <div class="card-container">
+        <button id="openBtn">Abrir Carta</button>
+        <div class="card">
+            <div class="front"></div>
+            <div class="back">
+                <img src="./imagens/WhatsApp-Image-2024-02-24-at-17.02.png" alt="Imagem">
+                <div class="hearts"></div>
+                <p>Eu te amo nico, de formas que voce jamais podera imaginar, to fazendo isso aqui com todo o esforço e metodos que eu aprendin eu nunca programei pra ngm alem de mim msm, vc é a unica para quem eu ja fiz algo na area de trabalho que eu quero seguir, eu te amo mais doque tudo minha lindnha, eu sei que nao esta muito bom mas eu te amo dms </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<script>
+    document.getElementById('openBtn').addEventListener('click', function() {
+    var card = document.querySelector('.card');
+    card.style.transform = 'rotateY(-180deg)';
+});
+</script>
+</html>
